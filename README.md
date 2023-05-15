@@ -1,0 +1,2 @@
+# Ring
+Allt fyrir öryggi
