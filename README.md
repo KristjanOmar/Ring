@@ -1,2 +1,1 @@
-# Ring
-Allt fyrir öryggi
+# Vefhönnun
