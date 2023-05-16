@@ -35,7 +35,6 @@ textarea{min-height:5em;padding-top:6px;padding-bottom:6px;font-size:1em}
 input[type=email]:focus,input[type=number]:focus,input[type=password]:focus,input[type=search]:focus,input[type=tel]:focus,input[type=text]:focus,input[type=url]:focus,select:focus,textarea:focus{border:2px solid var(--a-active);outline:0}
 legend{margin-bottom:-1.5em;font-weight:600}
 fieldset{padding:0;border-width:0}
-input[type=checkbox],input[type=radio]{display:inline}
 ul{list-style:circle inside}
 ol{list-style:decimal inside}
 code{padding:.2em .5em;margin:0 .2em;font-size:90%;white-space:nowrap;background:#f1f1f1;border:1px solid #e1e1e1;border-radius:4px}
@@ -134,7 +133,7 @@ to{opacity:1}
 #popp{animation:fadeOut 20s linear forwards;position:absolute;z-index:0}
 .bye{animation:blessadur 20s linear forwards}
 .splash{position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999;background:-webkit-radial-gradient(rgba(0,0,0,.1),rgba(0,0,0,.3) 35%,rgba(0,0,0,.7));background:-moz-radial-gradient(rgba(0,0,0,.1),rgba(0,0,0,.3) 35%,rgba(0,0,0,.7));background:-ms-radial-gradient(rgba(0,0,0,.1),rgba(0,0,0,.3) 35%,rgba(0,0,0,.7));background:radial-gradient(rgba(0,0,0,.1),rgba(0,0,0,.3) 35%,rgba(0,0,0,.7))}
-.content{position:absolute;width:100%;height:100%;left:0;top:0}
+.content2{position:absolute;width:100%;height:100%;left:0;top:0}
 .splash h2{position:absolute;top:50%;line-height:100px;height:100px;margin-top:-50px;font-size:100px;width:100%;text-align:center;color:transparent;animation:blurFadeInOut 3s ease-in backwards}
 .splash h2.frame-1{animation-delay:0s}
 .splash h2.frame-2{animation-delay:2.5s}
