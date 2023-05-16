@@ -94,7 +94,7 @@ section::after{content:"Blessadur" var(--footer-icon-color)}
 *{box-sizing:border-box}
 .slideshow-container{left:0;z-index:0}
 .mySlides{display:none}
-.next,.prev{cursor:pointer;position:absolute;top:40%;width:auto;margin-top:-22px;padding:16px;font-size:50px;user-select:none}
+.next,.prev{cursor:pointer;position:absolute;top:95%;width:auto;margin-top:-22px;padding:16px;font-size:50px;user-select:none}
 .next span,.prev span{border-radius:50%;transition:.6s ease;color:#fff;padding:5px}
 .next{right:0}
 .next span:hover,.prev span:hover{background-color:rgba(0,0,0,.2)}
@@ -109,16 +109,16 @@ to{opacity:1}
 }
 @media screen and (min-width:37.5em){
 .footercentre div{justify-content:unset;text-align:unset}
-.next,.prev{top:55%}
+.next,.prev{top:110%}
 }
 @media screen and (min-width:60em){
 .samfelagsmidlar{justify-content:left}
 }
 @media screen and (min-width:68em){
-.next,.prev{top:70%}
+.next,.prev{top:125%}
 }
 @media screen and (min-width:100em){
-.next,.prev{top:90%}
+.next,.prev{top:145%}
 }
 @keyframes fadeOut{
 0%{visibility:visible}
@@ -130,8 +130,8 @@ to{opacity:1}
 99.9%{visibility:hidden}
 100%{visibility:visible}
 }
-#popp{animation:fadeOut 2s linear forwards;position:absolute;z-index:0}
-.bye{animation:blessadur 2s linear forwards}
+#popp{animation:fadeOut 20s linear forwards;position:absolute;z-index:0}
+.bye{animation:blessadur 20s linear forwards}
 .splash{position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999;background:-webkit-radial-gradient(rgba(0,0,0,.1),rgba(0,0,0,.3) 35%,rgba(0,0,0,.7));background:-moz-radial-gradient(rgba(0,0,0,.1),rgba(0,0,0,.3) 35%,rgba(0,0,0,.7));background:-ms-radial-gradient(rgba(0,0,0,.1),rgba(0,0,0,.3) 35%,rgba(0,0,0,.7));background:radial-gradient(rgba(0,0,0,.1),rgba(0,0,0,.3) 35%,rgba(0,0,0,.7))}
 .content2{position:absolute;width:100%;height:100%;left:0;top:0}
 .splash h2{position:absolute;top:50%;line-height:100px;height:100px;margin-top:-50px;font-size:100px;width:100%;text-align:center;color:transparent;animation:blurFadeInOut 3s ease-in backwards}
